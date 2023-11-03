@@ -11,7 +11,9 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
-
+main {
+  color: white;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
