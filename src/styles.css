@@ -6,6 +6,9 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -16,16 +19,56 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;  
+  background-color: #678a4f;
+  text-decoration: none;
+}
+
 .grid-3-columns-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
 main {
   background-color: white;
 }
+
+main h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+main h6 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+}
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.secondary {
+  background: #f8f8f8;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
@@ -49,7 +92,6 @@ header h2 {
   line-height: 1.5;
   margin: 0;
 }
-
 header h3 {
   font-weight: 900;
   font-size: 24px;
@@ -69,7 +111,11 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
-
+header p {
+  margin: 80px;
+  text-align: left;
+  letter-spacing: 3px;
+}
 main {
   background-color: white;
 }
@@ -98,6 +144,7 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(6, 1, 27, 0.6), rgba(6, 1, 27, 0.9)),
@@ -145,12 +192,17 @@ footer a {
   header h3 {
     font-size: 16px;
   }
+  header p {
+    text-align: center;
+    margin: 10px;
+    padding: 5px 0;
+  }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-
   section {
     padding: 30px;
   }
+
 }
