@@ -19,13 +19,11 @@ body {
   display: block;
 }
 .img-responsive.panther {
- max-width: 500px;
- 
+  max-width: 500px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
-   justify-content: center;
-   al
+  justify-content: center;
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
@@ -103,11 +101,11 @@ section.secondary {
   background: #e8f0e8;
 }
 section.secondary h2 {
-    margin-bottom: 25px;
-  }
-  section.third-section {
-    text-align: center;
-  }
+  margin-bottom: 25px;
+}
+section.third-section {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url("../images/everglades-aerial-view.jpeg");
@@ -259,6 +257,5 @@ footer a {
   }
   .video-grid {
     grid-template-columns: 1fr;
-    
   }
 }
