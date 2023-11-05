@@ -29,7 +29,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-3-columns-footer {
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1.5fr 2fr 2.5fr;
 }
 .video-grid {
   display: grid;
