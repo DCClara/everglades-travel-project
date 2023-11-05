@@ -12,7 +12,7 @@ body {
 }
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 30px;
 }
 .img-responsive {
   width: 100%;
@@ -34,7 +34,7 @@ body {
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 30px;
+  margin-top: 10px;
   grid-gap: 10px;
 }
 .video {
@@ -51,7 +51,7 @@ body {
   background: white;
   margin: 0px 0;
 }
-.card-header .grid {
+.card-header.grid {
   grid-gap: 0;
 }
 .card-body {
@@ -105,6 +105,9 @@ section.secondary h2 {
 }
 section.third-section {
   text-align: center;
+}
+section.third-section h2 {
+  margin-bottom: 30px;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
